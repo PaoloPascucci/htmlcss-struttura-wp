@@ -25,6 +25,10 @@ body {
     background-color: #e579e6;
 }
 
+.corpo {
+    margin-top: 1rem;
+}
+
 .ciccio {
     margin-top: 1rem;
     background-color: #e1d67a;
@@ -35,4 +39,27 @@ body {
     margin-top: 1rem;
     height: 100px;
     background-color: #abcfe7;
+}
+
+.contenitore {
+    background-color: #0086ff;
+    height: 334px;
+}
+
+.box1, .box2 {
+    float: left;
+}
+
+.box1 {
+    background-color: #abcfe7;
+    height: 300px;
+    width: 15%;
+    margin-top: 1rem;
+}
+
+.box2 {
+    background-color: #abcfe7;
+    height: 300px;
+    width: 68%;
+    margin: 1rem 1% 0 1%;
 }
