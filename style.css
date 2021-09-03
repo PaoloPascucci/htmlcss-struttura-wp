@@ -9,17 +9,30 @@ body {
     margin: auto;
 }
 
-.debug {
-    height: 200px;
+.debug>.corpo {
+    height: 800px;
 }
 
-.contairen::after {
+.container::after {
+    content: "";
     display: table;
     clear: both;
 }
 
 .testa {
     margin-top: 1.5rem;
-    height: 5rem;
+    height: 100px;
     background-color: #e579e6;
+}
+
+.ciccio {
+    margin-top: 1rem;
+    background-color: #e1d67a;
+    height: 300px;
+}
+
+.pippo {
+    margin-top: 1rem;
+    height: 100px;
+    background-color: #abcfe7;
 }
