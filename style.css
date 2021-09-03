@@ -3,3 +3,23 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    width: 70%;
+    margin: auto;
+}
+
+.debug {
+    height: 200px;
+}
+
+.contairen::after {
+    display: table;
+    clear: both;
+}
+
+.testa {
+    margin-top: 1.5rem;
+    height: 5rem;
+    background-color: #e579e6;
+}
