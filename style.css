@@ -10,7 +10,7 @@ body {
 }
 
 .debug>.corpo {
-    height: 800px;
+    height: 750px;
 }
 
 .container::after {
@@ -21,7 +21,7 @@ body {
 
 .testa {
     margin-top: 1.5rem;
-    height: 100px;
+    height: 80px;
     background-color: #e579e6;
 }
 
@@ -62,4 +62,11 @@ body {
     height: 300px;
     width: 68%;
     margin: 1rem 1% 0 1%;
+}
+
+.pièdipagina {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 80px;
+    background-color: #8801fe;
 }
