@@ -9,8 +9,43 @@ body {
     margin: auto;
 }
 
-.debug>.corpo {
+.debug .corpo {
     height: 750px;
+}
+
+.debug .testa {
+    height: 80px;
+    background-color: #e579e6;
+}
+
+.debug .ciccio {
+    background-color: #e1d67a;
+    height: 300px;
+}
+
+.debug .pippo {
+    height: 100px;
+    background-color: #abcfe7;
+}
+
+.debug .box1 {
+    background-color: #abcfe7;
+    height: 300px;
+}
+
+.debug .box2 {
+    background-color: #abcfe7;
+    height: 300px;
+}
+
+.debug .pièdipagina {
+    height: 80px;
+    background-color: #8801fe;
+}
+
+.debug .contenitore {
+    background-color: #0086ff;
+    height: 334px;
 }
 
 .container::after {
@@ -21,8 +56,6 @@ body {
 
 .testa {
     margin-top: 1.5rem;
-    height: 80px;
-    background-color: #e579e6;
 }
 
 .corpo {
@@ -31,19 +64,10 @@ body {
 
 .ciccio {
     margin-top: 1rem;
-    background-color: #e1d67a;
-    height: 300px;
 }
 
 .pippo {
     margin-top: 1rem;
-    height: 100px;
-    background-color: #abcfe7;
-}
-
-.contenitore {
-    background-color: #0086ff;
-    height: 334px;
 }
 
 .box1, .box2 {
@@ -51,15 +75,11 @@ body {
 }
 
 .box1 {
-    background-color: #abcfe7;
-    height: 300px;
     width: 15%;
     margin-top: 1rem;
 }
 
 .box2 {
-    background-color: #abcfe7;
-    height: 300px;
     width: 68%;
     margin: 1rem 1% 0 1%;
 }
@@ -67,6 +87,4 @@ body {
 .pièdipagina {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    height: 80px;
-    background-color: #8801fe;
 }
